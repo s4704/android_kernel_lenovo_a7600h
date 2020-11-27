@@ -227,6 +227,7 @@ extern LCM_DRIVER nt35521_wxga_innolux_lcm_drv;
 extern LCM_DRIVER hx8394d_wxga_kd_lcm_drv;
 extern LCM_DRIVER cpt_clap070wp03xg_wxga_lvds_lcm_drv;
 extern LCM_DRIVER lh570_hd720_dsi_vdo_lgd_phase3_drv;
+extern LCM_DRIVER nt71397_dsi_vdo_lcm_drv;
 
 #ifdef BUILD_LK
 extern void mdelay(unsigned long msec);

@@ -901,6 +901,9 @@ LCM_DRIVER *lcm_driver_list[] = {
 #if defined(LH570_HD720_DSI_VDO_LGD_PHASE3)
 	&lh570_hd720_dsi_vdo_lgd_phase3_drv,
 #endif
+#if defined(NT71397_DSI_VDO)
+	&nt71397_dsi_vdo_lcm_drv,
+#endif
 };
 
 #define LCM_COMPILE_ASSERT(condition) LCM_COMPILE_ASSERT_X(condition, __LINE__)
